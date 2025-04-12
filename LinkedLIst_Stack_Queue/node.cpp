@@ -10,8 +10,6 @@ Node::Node(int v) : m_value(v)
 	m_next = nullptr;
 }
 
-
-
 Node* Node::getNext()
 {
 	return m_next;
